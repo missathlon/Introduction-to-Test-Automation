@@ -11,7 +11,7 @@ import java.util.List;
 public class Player {
     //имя игрока
     private String name;
-    //стратегия менять дверь
+    //стратегия игрока, если true игрок меняет дверь
     private boolean risk;
 
     public Player(String name, boolean risk) {

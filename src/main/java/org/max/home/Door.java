@@ -1,5 +1,8 @@
 package org.max.home;
 
+/**
+ * Класс для описание двери
+ */
 public class Door {
 
     private boolean isPrize;
