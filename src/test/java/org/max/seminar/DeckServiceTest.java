@@ -6,6 +6,9 @@ import org.max.seminar.type.Ranks;
 
 import java.util.ArrayList;
 
+/**
+ * Тест кейс для тестирования сервиса работы с колодой
+ */
 public class DeckServiceTest {
 
     @Test

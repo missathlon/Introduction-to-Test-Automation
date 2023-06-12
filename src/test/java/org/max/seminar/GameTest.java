@@ -4,9 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Тест кейс для проверки инициализации новой игры
+ */
 public class GameTest extends AbstractTest {
-
-
 
     @Test
     void newDeckTest() {

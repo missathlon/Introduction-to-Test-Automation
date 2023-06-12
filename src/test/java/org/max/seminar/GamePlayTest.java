@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 import org.max.seminar.type.Ranks;
 import org.max.seminar.type.Suits;
 
+/**
+ * Тест кейс для проверки условий определения победителя
+ */
 public class GamePlayTest extends AbstractTest {
 
     @Test

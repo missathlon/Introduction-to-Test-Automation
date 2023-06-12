@@ -6,6 +6,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.max.seminar.exception.DeckEmptyException;
 
+/**
+ * Тест кейс для тестирования объекта колоды
+ */
 public class DeckTest {
 
     Deck deck;
