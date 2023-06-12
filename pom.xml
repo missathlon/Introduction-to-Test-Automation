@@ -43,6 +43,7 @@
     <!-- Сборка -->
     <build>
         <plugins>
+            <!-- Plugin для компиляции исходных кодов -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -51,6 +52,7 @@
                     <target>17</target>
                 </configuration>
             </plugin>
+            <!-- Plugin для запуска тестовых классов - т.е. запуск тестов -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
