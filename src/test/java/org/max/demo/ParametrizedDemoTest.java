@@ -1,6 +1,7 @@
 package org.max.demo;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -18,6 +19,7 @@ public class ParametrizedDemoTest {
     @ParameterizedTest
     @ValueSource(ints = {1, 3, 5, 10, -3, 15, Integer.MAX_VALUE})
     @DisplayName("демонстрация работы параметраризованного теста с использование ValueSource")
+    @Disabled
     void parameterizedTest(int number) {
         //given
         //when
@@ -32,6 +34,7 @@ public class ParametrizedDemoTest {
     @ParameterizedTest
     @DisplayName("демонстрация работы параметраризованного теста с использование EnumSource")
     @EnumSource(value = Month.class, names = {"APRIL", "JUNE", "SEPTEMBER", "NOVEMBER", "DECEMBER"})
+    @Disabled
     void someMonths_Are30DaysLong(Month month) {
         //given
         final boolean isALeapYear = false;

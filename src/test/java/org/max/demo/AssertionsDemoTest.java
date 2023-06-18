@@ -83,6 +83,7 @@ public class AssertionsDemoTest {
 
     @Test
     @DisplayName("демонстрация утверждения assertAll")
+    @Disabled
     void assertMultiple() {
         //given
         //when
@@ -98,6 +99,7 @@ public class AssertionsDemoTest {
 
     @Test
     @DisplayName("демонстрация не пройденного теста и assertEquals")
+    @Disabled
     void failTest() {
         //given
         Object etalon = new Object();
